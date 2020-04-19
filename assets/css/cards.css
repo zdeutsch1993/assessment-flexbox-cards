@@ -1,3 +1,25 @@
+.cardContainer {
+  /* display */
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card {
+  /* display, flex-direction, flex-grow, flex-basis */
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
+  border: none;
+  border-radius: 0;
+  border-left: 1px solid #D7DBDD;
+  overflow: hidden;
+}
+
+.cardDescription {
+  /* display, flex-direction, align-items, flex-grow */
+  padding: 15px 0;
+}
+
 html {
   font-family: "Raleway", "Helvetica", sans-serif;
   font-weight: 400;
@@ -6,25 +28,10 @@ html {
   background-color: #FFFFFF;
 }
 
-.icon {
-  color: #BCD2DA;
-}
-
-.card {
-  /* display, flex-direction */
-  border: 1px solid #CAD0D2;
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.cardDescription {
-  /* display, flex-direction, align-items */
-  padding: 15px 0;
-}
-
 .cardDescriptionIcon {
   font-size: 32px;
   margin-bottom: 10px;
+  color: #BCD2DA;
 }
 
 .cardDescriptionText {
@@ -42,22 +49,4 @@ html {
   padding: 5px 15px;
   border-top: 1px solid #D7DBDD;
   background-color: #EEF3F5;
-}
-
-.cardContainer {
-  /* display */
-  border: 1px solid #CAD0D2;
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-.item {
-  /* flex-grow, flex-basis */
-  border: none;
-  border-radius: 0;
-  border-left: 1px solid #D7DBDD;
-}
-
-.itemDescription {
-  /* flex-grow */
 }
