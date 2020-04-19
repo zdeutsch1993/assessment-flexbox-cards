@@ -17,24 +17,24 @@ html {
   overflow: hidden;
 }
 
-.card__description {
+.cardDescription {
   /* display, flex-direction, align-items */
   padding: 15px 0;
 }
 
-.card__descriptionIcon {
+.cardDescriptionIcon {
   font-size: 32px;
   margin-bottom: 10px;
 }
 
-.card__descriptionText {
+.cardDescriptionText {
   color: #57727C;
   font-size: 12px;
   text-align: center;
   max-width: calc(100% - 30px);
 }
 
-.card__price {
+.cardPrice {
   text-align: center;
   color: #57727C;
   font-size: 12px;
@@ -44,23 +44,20 @@ html {
   background-color: #EEF3F5;
 }
 
-.cardGroup {
+.cardContainer {
   /* display */
   border: 1px solid #CAD0D2;
   border-radius: 4px;
   overflow: hidden;
 }
 
-.cardGroup__card {
+.item {
   /* flex-grow, flex-basis */
   border: none;
   border-radius: 0;
-}
-
-.cardGroup__card {
   border-left: 1px solid #D7DBDD;
 }
 
-.cardGroup__cardDescription {
+.itemDescription {
   /* flex-grow */
 }
