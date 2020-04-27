@@ -1,0 +1,62 @@
+.cardContainer {
+  /* display */
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 1000px;
+  display: flex;
+}
+
+.card {
+  /* display, flex-direction, flex-grow, flex-basis */
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
+  overflow: hidden;
+  border: none;
+  border-radius: 0;
+  border-left: 1px solid #D7DBDD;
+  width: 1000px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.cardDescription {
+  /* display, flex-direction, align-items, flex-grow */
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items:  center;
+}
+
+html {
+  font-family: "Raleway", "Helvetica", sans-serif;
+  font-weight: 400;
+  color: #2F3442;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+.cardDescriptionIcon {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #BCD2DA;
+}
+
+.cardDescriptionText {
+  color: #57727C;
+  font-size: 12px;
+  text-align: center;
+  max-width: calc(100% - 30px);
+}
+
+.cardPrice {
+  text-align: center;
+  color: #57727C;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-top: 1px solid #D7DBDD;
+  background-color: #EEF3F5;
+}
